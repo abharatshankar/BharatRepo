@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6BEFC8CA2316B03400B0217B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEFC8C92316B03400B0217B /* AppDelegate.swift */; };
+		6BEFC8CC2316B03400B0217B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEFC8CB2316B03400B0217B /* ViewController.swift */; };
+		6BEFC8CF2316B03400B0217B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BEFC8CD2316B03400B0217B /* Main.storyboard */; };
+		6BEFC8D22316B03400B0217B /* HiBharat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6BEFC8D02316B03400B0217B /* HiBharat.xcdatamodeld */; };
+		6BEFC8D42316B03600B0217B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BEFC8D32316B03600B0217B /* Assets.xcassets */; };
+		6BEFC8D72316B03600B0217B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BEFC8D52316B03600B0217B /* LaunchScreen.storyboard */; };
+		6BEFC8E22316B03600B0217B /* HiBharatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEFC8E12316B03600B0217B /* HiBharatTests.swift */; };
+		6BEFC8ED2316B03600B0217B /* HiBharatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEFC8EC2316B03600B0217B /* HiBharatUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6BEFC8DE2316B03600B0217B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BEFC8BE2316B03400B0217B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BEFC8C52316B03400B0217B;
+			remoteInfo = HiBharat;
+		};
+		6BEFC8E92316B03600B0217B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6BEFC8BE2316B03400B0217B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BEFC8C52316B03400B0217B;
+			remoteInfo = HiBharat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6BEFC8C62316B03400B0217B /* HiBharat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HiBharat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BEFC8C92316B03400B0217B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6BEFC8CB2316B03400B0217B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6BEFC8CE2316B03400B0217B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6BEFC8D12316B03400B0217B /* HiBharat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HiBharat.xcdatamodel; sourceTree = "<group>"; };
+		6BEFC8D32316B03600B0217B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6BEFC8D62316B03600B0217B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6BEFC8D82316B03600B0217B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BEFC8DD2316B03600B0217B /* HiBharatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiBharatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BEFC8E12316B03600B0217B /* HiBharatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiBharatTests.swift; sourceTree = "<group>"; };
+		6BEFC8E32316B03600B0217B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BEFC8E82316B03600B0217B /* HiBharatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HiBharatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BEFC8EC2316B03600B0217B /* HiBharatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HiBharatUITests.swift; sourceTree = "<group>"; };
+		6BEFC8EE2316B03600B0217B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BEFC8C32316B03400B0217B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BEFC8DA2316B03600B0217B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BEFC8E52316B03600B0217B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6BEFC8BD2316B03400B0217B = {
+			isa = PBXGroup;
+			children = (
+				6BEFC8C82316B03400B0217B /* HiBharat */,
+				6BEFC8E02316B03600B0217B /* HiBharatTests */,
+				6BEFC8EB2316B03600B0217B /* HiBharatUITests */,
+				6BEFC8C72316B03400B0217B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6BEFC8C72316B03400B0217B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BEFC8C62316B03400B0217B /* HiBharat.app */,
+				6BEFC8DD2316B03600B0217B /* HiBharatTests.xctest */,
+				6BEFC8E82316B03600B0217B /* HiBharatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6BEFC8C82316B03400B0217B /* HiBharat */ = {
+			isa = PBXGroup;
+			children = (
+				6BEFC8C92316B03400B0217B /* AppDelegate.swift */,
+				6BEFC8CB2316B03400B0217B /* ViewController.swift */,
+				6BEFC8CD2316B03400B0217B /* Main.storyboard */,
+				6BEFC8D32316B03600B0217B /* Assets.xcassets */,
+				6BEFC8D52316B03600B0217B /* LaunchScreen.storyboard */,
+				6BEFC8D82316B03600B0217B /* Info.plist */,
+				6BEFC8D02316B03400B0217B /* HiBharat.xcdatamodeld */,
+			);
+			path = HiBharat;
+			sourceTree = "<group>";
+		};
+		6BEFC8E02316B03600B0217B /* HiBharatTests */ = {
+			isa = PBXGroup;
+			children = (
+				6BEFC8E12316B03600B0217B /* HiBharatTests.swift */,
+				6BEFC8E32316B03600B0217B /* Info.plist */,
+			);
+			path = HiBharatTests;
+			sourceTree = "<group>";
+		};
+		6BEFC8EB2316B03600B0217B /* HiBharatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6BEFC8EC2316B03600B0217B /* HiBharatUITests.swift */,
+				6BEFC8EE2316B03600B0217B /* Info.plist */,
+			);
+			path = HiBharatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BEFC8C52316B03400B0217B /* HiBharat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BEFC8F12316B03600B0217B /* Build configuration list for PBXNativeTarget "HiBharat" */;
+			buildPhases = (
+				6BEFC8C22316B03400B0217B /* Sources */,
+				6BEFC8C32316B03400B0217B /* Frameworks */,
+				6BEFC8C42316B03400B0217B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HiBharat;
+			productName = HiBharat;
+			productReference = 6BEFC8C62316B03400B0217B /* HiBharat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6BEFC8DC2316B03600B0217B /* HiBharatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BEFC8F42316B03600B0217B /* Build configuration list for PBXNativeTarget "HiBharatTests" */;
+			buildPhases = (
+				6BEFC8D92316B03600B0217B /* Sources */,
+				6BEFC8DA2316B03600B0217B /* Frameworks */,
+				6BEFC8DB2316B03600B0217B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BEFC8DF2316B03600B0217B /* PBXTargetDependency */,
+			);
+			name = HiBharatTests;
+			productName = HiBharatTests;
+			productReference = 6BEFC8DD2316B03600B0217B /* HiBharatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6BEFC8E72316B03600B0217B /* HiBharatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6BEFC8F72316B03600B0217B /* Build configuration list for PBXNativeTarget "HiBharatUITests" */;
+			buildPhases = (
+				6BEFC8E42316B03600B0217B /* Sources */,
+				6BEFC8E52316B03600B0217B /* Frameworks */,
+				6BEFC8E62316B03600B0217B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6BEFC8EA2316B03600B0217B /* PBXTargetDependency */,
+			);
+			name = HiBharatUITests;
+			productName = HiBharatUITests;
+			productReference = 6BEFC8E82316B03600B0217B /* HiBharatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6BEFC8BE2316B03400B0217B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Bharat;
+				TargetAttributes = {
+					6BEFC8C52316B03400B0217B = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					6BEFC8DC2316B03600B0217B = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 6BEFC8C52316B03400B0217B;
+					};
+					6BEFC8E72316B03600B0217B = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 6BEFC8C52316B03400B0217B;
+					};
+				};
+			};
+			buildConfigurationList = 6BEFC8C12316B03400B0217B /* Build configuration list for PBXProject "HiBharat" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6BEFC8BD2316B03400B0217B;
+			productRefGroup = 6BEFC8C72316B03400B0217B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BEFC8C52316B03400B0217B /* HiBharat */,
+				6BEFC8DC2316B03600B0217B /* HiBharatTests */,
+				6BEFC8E72316B03600B0217B /* HiBharatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6BEFC8C42316B03400B0217B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BEFC8D72316B03600B0217B /* LaunchScreen.storyboard in Resources */,
+				6BEFC8D42316B03600B0217B /* Assets.xcassets in Resources */,
+				6BEFC8CF2316B03400B0217B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BEFC8DB2316B03600B0217B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BEFC8E62316B03600B0217B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6BEFC8C22316B03400B0217B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BEFC8CC2316B03400B0217B /* ViewController.swift in Sources */,
+				6BEFC8CA2316B03400B0217B /* AppDelegate.swift in Sources */,
+				6BEFC8D22316B03400B0217B /* HiBharat.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BEFC8D92316B03600B0217B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BEFC8E22316B03600B0217B /* HiBharatTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BEFC8E42316B03600B0217B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BEFC8ED2316B03600B0217B /* HiBharatUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6BEFC8DF2316B03600B0217B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BEFC8C52316B03400B0217B /* HiBharat */;
+			targetProxy = 6BEFC8DE2316B03600B0217B /* PBXContainerItemProxy */;
+		};
+		6BEFC8EA2316B03600B0217B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6BEFC8C52316B03400B0217B /* HiBharat */;
+			targetProxy = 6BEFC8E92316B03600B0217B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6BEFC8CD2316B03400B0217B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BEFC8CE2316B03400B0217B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6BEFC8D52316B03600B0217B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BEFC8D62316B03600B0217B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6BEFC8EF2316B03600B0217B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6BEFC8F02316B03600B0217B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6BEFC8F22316B03600B0217B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HiBharat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = local.HiBharat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6BEFC8F32316B03600B0217B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HiBharat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = local.HiBharat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6BEFC8F52316B03600B0217B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HiBharatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = local.HiBharatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HiBharat.app/HiBharat";
+			};
+			name = Debug;
+		};
+		6BEFC8F62316B03600B0217B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HiBharatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = local.HiBharatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HiBharat.app/HiBharat";
+			};
+			name = Release;
+		};
+		6BEFC8F82316B03600B0217B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HiBharatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = local.HiBharatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HiBharat;
+			};
+			name = Debug;
+		};
+		6BEFC8F92316B03600B0217B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HiBharatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = local.HiBharatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HiBharat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6BEFC8C12316B03400B0217B /* Build configuration list for PBXProject "HiBharat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BEFC8EF2316B03600B0217B /* Debug */,
+				6BEFC8F02316B03600B0217B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BEFC8F12316B03600B0217B /* Build configuration list for PBXNativeTarget "HiBharat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BEFC8F22316B03600B0217B /* Debug */,
+				6BEFC8F32316B03600B0217B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BEFC8F42316B03600B0217B /* Build configuration list for PBXNativeTarget "HiBharatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BEFC8F52316B03600B0217B /* Debug */,
+				6BEFC8F62316B03600B0217B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6BEFC8F72316B03600B0217B /* Build configuration list for PBXNativeTarget "HiBharatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BEFC8F82316B03600B0217B /* Debug */,
+				6BEFC8F92316B03600B0217B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6BEFC8D02316B03400B0217B /* HiBharat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6BEFC8D12316B03400B0217B /* HiBharat.xcdatamodel */,
+			);
+			currentVersion = 6BEFC8D12316B03400B0217B /* HiBharat.xcdatamodel */;
+			path = HiBharat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6BEFC8BE2316B03400B0217B /* Project object */;
+}
